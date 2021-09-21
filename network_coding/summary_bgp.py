@@ -30,6 +30,6 @@ def strip_routes(routes):
 if __name__ == "__main__":
     R1 = iosg_router01()
     router = parse_device(**R1)
-    print(strip_routes(router))
-    # sr = strip_routes(router)
-    # print(cidr_merge(sr))
+    # print(strip_routes(router))
+    sr = strip_routes(router)
+    print(cidr_merge(sr))
