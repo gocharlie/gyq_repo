@@ -1,0 +1,7 @@
+[fortigate]
+fw1 ansible_host=10.252.2.1 ansible_user="admin" ansible_password="admin@123"
+fw2 ansible_host=10.252.2.2 ansible_user="admin" ansible_password="admin@123"
+fw3 ansible_host=10.252.2.3 ansible_user="admin" ansible_password="admin@123"
+
+[fortigate:vars]
+ansible_network_os=fortinet.fortios.fortios
